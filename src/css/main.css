@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start; /* only works with more thant one line with a wrapper */
+    align-items: flex-start;
+    border: 1px solid #fff;
+    height: 300px;
+    width: 500px;
+}
+
+.container div {
+    float: right;
+}
