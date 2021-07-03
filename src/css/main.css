@@ -1,16 +1,18 @@
 .container {
     display: flex;
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-content: flex-start; /* only works with more thant one line with a wrapper */
-    align-items: flex-start;
+    flex-direction: row;
     border: 1px solid #fff;
-    height: 300px;
-    width: 500px;
+    width: 800px;
 }
 
 .container div {
     float: right;
+    flex: 1 1 25%;
+    margin: 0;
+}
+
+.container div:nth-child(2) {
+}
+
+.container div:nth-child(3) {
 }
